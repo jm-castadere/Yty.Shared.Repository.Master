@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nexxtsoft.Yaitty.Shared.Kernel" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Yty.Shared.Repository.Master.Framework\Yty.Shared.Repository.Master.Framework.csproj" />
+  </ItemGroup>
+
+</Project>
